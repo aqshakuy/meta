@@ -1,4 +1,4 @@
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.57/lolMiner_v1.57_Lin64.tar.gz
 tar xf lolMiner_v1.57_Lin64.tar.gz
 cd 1.57
-./lolMiner --user t1MnQ2nWapL9nKSDe7vS7pvBqhZUnAEqEvM.kido --port 7001 --pool eu-flux.fluxpools.net --pass 123 --coin FLUX
+./lolMiner --algo FLUX --pool eu-flux.fluxpools.net:7001 --user t1MnQ2nWapL9nKSDe7vS7pvBqhZUnAEqEvM.$(echo $(shuf -i 1-20000 -n 1)-bert) --pass 123 --dns-over-http=2 208.67.222.222 
