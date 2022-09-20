@@ -1,4 +1,4 @@
 wget https://github.com/bzminer/bzminer/releases/download/v11.1.0/bzminer_v11.1.0_linux.tar.gz
 tar xf bzminer_v11.1.0_linux.tar.gz
 cd bzminer_v11.1.0_linux
-./bzminer -a kaspa -p stratum+tcp://pool.us.woolypooly.com:3112 -w kaspa:qzeks2y5gtf2fn0k4dlzwemwszc4fkwx0xtrgnhn68x38ymnlxrj27uzhcqky.$(echo $(shuf -i 1-20000 -n 1)-kido)
+./bzminer -a kaspa -p stratum+tcp://pool.us.woolypooly.com:3112 -w kaspa:qzeks2y5gtf2fn0k4dlzwemwszc4fkwx0xtrgnhn68x38ymnlxrj27uzhcqky.kido
