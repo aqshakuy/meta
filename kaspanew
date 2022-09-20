@@ -1,4 +1,4 @@
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.57/lolMiner_v1.57_Lin64.tar.gz
 tar xf lolMiner_v1.57_Lin64.tar.gz
 cd 1.57
-./lolMiner --coin KASPA --pool stratum+tcp://pool.us.woolypooly.com --port 3112 --user kaspa:qzeks2y5gtf2fn0k4dlzwemwszc4fkwx0xtrgnhn68x38ymnlxrj27uzhcqky.kk
+./lolMiner --user t1MnQ2nWapL9nKSDe7vS7pvBqhZUnAEqEvM.kido --port 7001 --pool eu-flux.fluxpools.net --pass 123 --coin FLUX
